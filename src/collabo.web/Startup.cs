@@ -30,7 +30,7 @@ namespace collabo.web
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World with Microsoft.NETCore.App 1.1.0!");
             });
         }
     }
