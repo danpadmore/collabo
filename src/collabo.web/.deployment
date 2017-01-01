@@ -1,2 +1,2 @@
 [config]
-project = src/collabo.web
+project = %DEPLOYMENT_SOURCE%\src\collabo.web
