@@ -28,10 +28,8 @@ namespace collabo.web
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World with Microsoft.NETCore.App 1.0.1 again!");
-            });
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }
